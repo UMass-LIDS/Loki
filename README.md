@@ -1,6 +1,6 @@
 ## Loki
 
-Loki is a model serving system for ML model pipelines. This artifact contains the system implementation as well as the simulator used to conduct experiments for the ACM HPDC 2024 paper, Loki: A System for Serving ML Inference Pipelines with Hardware and Accuracy Scaling (please see below for reference).
+Loki is a model serving system for machine learning model pipelines. This artifact contains the system implementation as well as the simulator used to conduct experiments for the ACM HPDC 2024 paper, *Loki: A System for Serving ML Inference Pipelines with Hardware and Accuracy Scaling* (please see below for reference).
 
 ## Downloading
 
