@@ -1,0 +1,38 @@
+{
+    "appID": "124",
+    "appName": "social_media",
+    "latencySLOInMSec": 250,
+    "root": {
+        "task": "source",
+        "model_variants": ["source"],
+        "children": [
+            {
+                "task": "object_detection",
+                "model_variants": [
+                    "yolov5n", "yolov5s", "yolov5m", "yolov5l", "yolov5x"
+                ],
+                "children": [
+                    {
+                        "task": "sink",
+                        "model_variants": ["sink"],
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "task": "image_captioning",
+                "model_variants": [
+                    "clip-vit-base-patch32", "clip-vit-base-patch16",
+                    "clip-vit-large-patch14", "clip-vit-large-patch14-336"
+                ],
+                "children": [
+                    {
+                        "task": "sink",
+                        "model_variants": ["sink"],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }
+}

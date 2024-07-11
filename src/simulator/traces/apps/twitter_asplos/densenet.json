@@ -1,0 +1,12 @@
+{
+    "appID": "2",
+    "appName": "densenetApp",
+    "latencySLOInMSec": 300,
+    "root": {
+        "task": "densenet",
+        "model_variants": [
+            "densenet121", "densenet161", "densenet169", "densenet201"
+        ],
+        "children": []
+    }
+}

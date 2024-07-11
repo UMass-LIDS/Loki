@@ -1,0 +1,4 @@
+clip-vit-base-patch32,82.9396325459318
+clip-vit-base-patch16,90.0262467191601
+clip-vit-large-patch14,98.8188976377953
+clip-vit-large-patch14-336,100

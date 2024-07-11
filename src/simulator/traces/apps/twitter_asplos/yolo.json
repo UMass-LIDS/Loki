@@ -1,0 +1,12 @@
+{
+    "appID": "9",
+    "appName": "yoloApp",
+    "latencySLOInMSec": 300,
+    "root": {
+        "task": "yolo",
+        "model_variants": [
+            "yolov5n", "yolov5m", "yolov5s", "yolov5l", "yolov5x"
+        ],
+        "children": []
+    }
+}

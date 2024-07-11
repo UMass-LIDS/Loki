@@ -1,0 +1,12 @@
+{
+    "appID": "8",
+    "appName": "t5App",
+    "latencySLOInMSec": 300,
+    "root": {
+        "task": "t5",
+        "model_variants": [
+            "t5-small", "t5-base", "t5-large"
+        ],
+        "children": []
+    }
+}

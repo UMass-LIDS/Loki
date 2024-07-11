@@ -1,0 +1,13 @@
+{
+    "appID": "7",
+    "appName": "resnetApp",
+    "latencySLOInMSec": 300,
+    "root": {
+        "task": "resnet",
+        "model_variants": [
+            "resnet18_v1", "resnet34_v1", "resnet50_v1", "resnet101_v1",
+            "resnet152_v1"
+        ],
+        "children": []
+    }
+}

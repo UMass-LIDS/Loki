@@ -1,0 +1,15 @@
+{
+    "appID": "1",
+    "appName": "bertApp",
+    "latencySLOInMSec": 300,
+    "root": {
+        "task": "bert",
+        "model_variants": [
+            "roberta-base", "roberta-large", "albert-base-v2", "albert-large-v2",
+            "albert-xlarge-v2", "albert-xxlarge-v2", "prajjwal1/bert-tiny",
+            "prajjwal1/bert-mini", "prajjwal1/bert-small", "prajjwal1/bert-medium",
+            "bert-base-uncased", "bert-large-uncased"
+        ],
+        "children": []
+    }
+}

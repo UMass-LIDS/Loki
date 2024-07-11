@@ -1,0 +1,19 @@
+{
+    "profiling_data": "profiling/simulator_runtimes.csv",
+    "pipeline_accuracy_file": "profiling/pipeline_accuracy.csv",
+    "app_definitions_path": "traces/apps/social_media",
+    "trace_path": "traces/twitter/social_media",
+    "branching_trace_path": "traces/twitter/social_media/branching_smoothed",
+    "allowed_variants": "traces/model_variants/social_media",
+    "model_allocation": "pipeline_aware",
+    "job_scheduling": "most_accurate_first",
+    "batching": "fixed_size",
+    "beta": 1.2,
+    "ewma_decay": 1.6,
+    "fixed_seed": true,
+    "seed": 10,
+    "solve_interval": 1,
+    "short_run": false,
+    "log_to_file": true,
+    "log_path": "endtoend/social_media/pipeline_offline.csv"
+}

@@ -1,0 +1,12 @@
+{
+    "appID": "5",
+    "appName": "mobilenetApp",
+    "latencySLOInMSec": 300,
+    "root": {
+        "task": "mobilenet",
+        "model_variants": [
+            "mobilenet0.25", "mobilenet0.5", "mobilenet0.75", "mobilenet1.0"
+        ],
+        "children": []
+    }
+}

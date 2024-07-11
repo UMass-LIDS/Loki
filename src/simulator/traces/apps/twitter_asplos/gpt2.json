@@ -1,0 +1,12 @@
+{
+    "appID": "4",
+    "appName": "gptApp",
+    "latencySLOInMSec": 300,
+    "root": {
+        "task": "gpt2",
+        "model_variants": [
+            "gpt2", "gpt2-medium", "gpt2-large", "gpt2-xl"
+        ],
+        "children": []
+    }
+}

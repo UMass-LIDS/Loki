@@ -1,0 +1,22 @@
+error
+
+yolov5m
+image 6338
+
+Traceback (most recent call last):
+  File "/work/pi_rsitaram_umass_edu/sohaib/pipelines/traffic_analysis/run.py", line 128, in <module>
+    car_tensors = resize_tensors(car_tensors, car_cls_input_size)
+  File "/work/pi_rsitaram_umass_edu/sohaib/pipelines/traffic_analysis/utils.py", line 181, in resize_tensors
+    resized_tensor = transforms.Resize(size=size)(tensor)
+  File "/home/sahmad_umass_edu/.conda/envs/traffic/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/sahmad_umass_edu/.conda/envs/traffic/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 346, in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+  File "/home/sahmad_umass_edu/.conda/envs/traffic/lib/python3.10/site-packages/torchvision/transforms/functional.py", line 476, in resize
+    return F_t.resize(img, size=output_size, interpolation=interpolation.value, antialias=antialias)
+  File "/home/sahmad_umass_edu/.conda/envs/traffic/lib/python3.10/site-packages/torchvision/transforms/functional_tensor.py", line 469, in resize
+    img = interpolate(img, size=size, mode=interpolation, align_corners=align_corners, antialias=antialias)
+  File "/home/sahmad_umass_edu/.conda/envs/traffic/lib/python3.10/site-packages/torch/nn/functional.py", line 3950, in interpolate
+    return torch._C._nn.upsample_bilinear2d(input, output_size, align_corners, scale_factors)
+RuntimeError: Input and output sizes should be greater than 0, but got input (H: 32, W: 0) output (H: 224, W: 224)
+

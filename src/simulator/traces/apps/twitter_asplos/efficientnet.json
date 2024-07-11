@@ -1,0 +1,13 @@
+{
+    "appID": "3",
+    "appName": "efficientnetApp",
+    "latencySLOInMSec": 300,
+    "root": {
+        "task": "efficientnet",
+        "model_variants": [
+            "efficientnet-b0", "efficientnet-b1", "efficientnet-b3",
+            "efficientnet-b5", "efficientnet-b7"
+        ],
+        "children": []
+    }
+}

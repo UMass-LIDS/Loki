@@ -1,0 +1,19 @@
+{
+    "profiling_data": "profiling/simulator_runtimes.csv",
+    "pipeline_accuracy_file": "profiling/pipeline_accuracy.csv",
+    "app_definitions_path": "traces/apps/traffic_analysis",
+    "trace_path": "traces/maf/traffic_analysis",
+    "branching_trace_path": "traces/maf/traffic_analysis/branching_smoothed",
+    "allowed_variants": "traces/model_variants/traffic_analysis",
+    "model_allocation": "pipeline_aware",
+    "job_scheduling": "most_accurate_first",
+    "batching": "fixed_size",
+    "beta": 1,
+    "ewma_decay": 1.6,
+    "fixed_seed": true,
+    "seed": 10,
+    "solve_interval": 1,
+    "short_run": false,
+    "log_to_file": true,
+    "log_path": "endtoend/pipeline_online.csv"
+}

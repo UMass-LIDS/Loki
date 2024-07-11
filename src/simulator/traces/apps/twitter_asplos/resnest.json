@@ -1,0 +1,12 @@
+{
+    "appID": "6",
+    "appName": "resnestApp",
+    "latencySLOInMSec": 300,
+    "root": {
+        "task": "resnest",
+        "model_variants": [
+            "resnest14", "resnest26", "resnest50", "resnest269"
+        ],
+        "children": []
+    }
+}
